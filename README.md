@@ -119,6 +119,10 @@
 							-this.prosp.history.goForward()
 							-this.prosp.history.go()
 
+							
+## 补充：withRouter
+					withRouter可以加工一般组件，让一般组件具备路由组件所特有的API
+					withRouter的返回值是一个新组件
 ## 十三、BrowserRouter与HashRouter的区别
 			1.底层原理不一样：
 						BrowserRouter使用的是H5的history API，不兼容IE9及以下版本。

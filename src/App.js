@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
+import Header from './components/Header/Header'
 import About from './components/About/About'
 import Home from './components/Home/Home'
 
@@ -9,7 +10,9 @@ export default class App extends Component {
       <div>
         <div className="row">
           <div className="col-xs-offset-2 col-xs-8">
-            <div className="page-header"><h2>React Router Demo</h2></div>
+            <div className="page-header">
+              <Header></Header>
+            </div>
           </div>
         </div>
         <div className="row">
